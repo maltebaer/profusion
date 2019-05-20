@@ -16,7 +16,6 @@ export default function PanelProtest({ catalog }) {
 
   // --- R E A D ---
   const [data, setData] = useState(null);
-  console.log("TCL: PanelProtest -> data", data);
   const [currentId, setCurrentId] = useState(null);
   const [newDataAvailable, setNewDataAvailable] = useState(false);
 
