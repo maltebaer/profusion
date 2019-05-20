@@ -52,13 +52,7 @@ export default function Login({ history }) {
             </Button>
           </Form>
         </Segment>
-        {message ? (
-          <Message error content={message} />
-        ) : (
-          <Message>
-            Noch keinen Account? <a href="/">Frag einen Admin!</a>
-          </Message>
-        )}
+        {message && <Message error content={message} />}
       </Grid.Column>
     </Grid>
   );

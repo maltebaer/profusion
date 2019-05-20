@@ -12,7 +12,7 @@ export default function Admin() {
         floated="right"
         basic
         as="a"
-        href="/login"
+        href="/"
         content="Logout"
         onClick={() => apiAuth.logout()}
       />
